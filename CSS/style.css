@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'Circus';
+  src: url(circus_converted/Circus.eot);
+  src: url(circus_converted/Circus.eot?#iefix) format('embedded-opentype'),
+       url(circus_converted/Circus.svg#Circus) format('svg'),
+       url(circus_converted/Circus.woff2) format('woff2'),
+       url(circus_converted/Circus.otf) format('otf'),
+       url(circus_converted/Circus.ttf) format('truetype'),
+       url(circus_converted/Circus.woff) format('woff');
+}
+@font-face {
+  font-family: 'Fashion Stamp';
+  src: url('fashion_stamp_converted/Fashion Stamp.eot');
+  src: url('fashion_stamp_converted/Fashion Stamp.eot?#iefix') format('embedded-opentype'),
+       url('fashion_stamp_converted/Fashion Stamp.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FashionStamp';
+  src: url('fashion_stamp_converted/FashionStamp.svg#FashionStamp') format('svg'),
+       url('fashion_stamp_converted/FashionStamp.ttf') format('truetype'),
+       url('fashion_stamp_converted/FashionStamp.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1
+{
+	background-image: url("principale.jpg");
+	font-size:118px;
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	margin-bottom:0px;
+	margin-top:0px;
+	color:black;
+	text-shadow: 3px 3px 8px black;
+	animation: moveIt 100s linear infinite;
+	background-repeat: repeat-x;
+	height:252px;
+	
+}
+#principale
+{
+	margin-left:425px;
+}
+ul
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:#333;
+
+}
+li
+{
+	float:left;
+}
+li a
+{
+	display:block;
+	color:black;
+	text-align:center;
+	padding:14px 126px;
+	text-decoration:none;
+	font-family: 'FashionStamp';
+	font-size:32px;
+	text-shadow: 2px 2px 8px #000000;
+}
+li a:hover
+{
+	background-color:#111;
+}
+body
+{
+	background-color:#111;
+	/* background-image:url("stars_seamless.jpg"); */
+}
+#jojo_family
+{
+	margin-left:310px;
+	margin-top:0px;
+	border-bottom:5px solid #000;
+	border-top:10px solid #000;
+	border-left:1px solid #000;
+	border-right:1px solid #000;
+	border-radius: 5px 5px 5px 5px ;
+}
+#texte_resume
+{
+	font-size:18px;
+	color:black;
+	text-align:center;
+	font-weight:bold;
+	font-family:tahoma;
+	margin-left:200px;
+	margin-right:200px;
+	justify-content:center;
+	text-shadow: 1px 1px 1px black;
+
+}
+#titre_resume
+{
+	margin-bottom:5px;
+	margin-top:5px;
+	font-family:FashionStamp;
+	text-align:center;
+	font-size:32px;
+	justify-content:center;
+	text-shadow: 1px 1px 1px black;
+}
+@Keyframes moveIt
+{
+	from {background-position:left} to {background-position:right;}
+}

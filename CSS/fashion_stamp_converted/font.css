@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Fashion Stamp';
+  src: url('Fashion Stamp.eot');
+  src: url('Fashion Stamp.eot?#iefix') format('embedded-opentype'),
+       url('Fashion Stamp.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FashionStamp';
+  src: url('FashionStamp.svg#FashionStamp') format('svg'),
+       url('FashionStamp.ttf') format('truetype'),
+       url('FashionStamp.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+

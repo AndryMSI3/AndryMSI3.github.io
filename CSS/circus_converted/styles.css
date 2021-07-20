@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Circus';
+  src: url(./Circus.eot);
+  src: url(./Circus.eot?#iefix) format('embedded-opentype'),
+       url(./Circus.svg#Circus) format('svg'),
+       url(./Circus.woff2) format('woff2'),
+       url(./Circus.otf) format('otf'),
+       url(./Circus.ttf) format('truetype'),
+       url(./Circus.woff) format('woff');
+}

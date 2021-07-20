@@ -1,0 +1,136 @@
+@font-face {
+  font-family: 'Circus';
+  src: url(circus_converted/Circus.eot);
+  src: url(circus_converted/Circus.eot?#iefix) format('embedded-opentype'),
+       url(circus_converted/Circus.svg#Circus) format('svg'),
+       url(circus_converted/Circus.woff2) format('woff2'),
+       url(circus_converted/Circus.otf) format('otf'),
+       url(circus_converted/Circus.ttf) format('truetype'),
+       url(circus_converted/Circus.woff) format('woff');
+}
+@font-face {
+  font-family: 'Fashion Stamp';
+  src: url('fashion_stamp_converted/Fashion Stamp.eot');
+  src: url('fashion_stamp_converted/Fashion Stamp.eot?#iefix') format('embedded-opentype'),
+       url('fashion_stamp_converted/Fashion Stamp.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FashionStamp';
+  src: url('fashion_stamp_converted/FashionStamp.svg#FashionStamp') format('svg'),
+       url('fashion_stamp_converted/FashionStamp.ttf') format('truetype'),
+       url('fashion_stamp_converted/FashionStamp.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#principale
+{
+	margin-left:425px;
+}
+ul
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:rgb(240,240,240);
+	margin-top:0px;
+
+}
+li
+{
+	float:left;
+}
+li a
+{
+	display:block;
+	color:black;
+	text-align:center;
+	padding:14px 150px;
+	text-decoration:none;
+	font-family: 'FashionStamp';
+	font-size:28px;
+	text-shadow: 2px 2px 8px #000000;
+	margin-top:0px;
+}
+li a:hover
+{
+	background-color:rgb(230,230,230);
+}
+body
+{
+	background-color:white;
+	/* background-image:url("stars_seamless.jpg"); */
+}
+
+#texte_resume
+{
+	font-size:18px;
+	color:black;
+	text-align:center;
+	font-weight:bold;
+	font-family:tahoma;
+	margin-left:200px;
+	margin-right:200px;
+	justify-content:center;
+
+}
+#titre_resume
+{
+	margin-bottom:0px;
+	margin-top:15px;
+	font-family:FashionStamp;
+	text-align:center;
+	font-size:32px;
+	justify-content:center;
+}
+@Keyframes moveIt
+{
+	from {background-position:left} to {background-position:right;}
+}
+#petit_lien
+{
+	display:flex;
+	width:100px;
+	text-align:center;
+	margin-left:610px;
+	font-size:13px;
+	color:blue;
+}
+.conteneur
+{
+	justify-content:znd;
+	display:grid;
+	grid-template-columns: [titre] 200px [art1] 450px [art2] 450px [art3] 450px  ;
+	grid-template-rows:[titre] 254px [art1] 300px [art2] 300px [art3] 300px ;
+}
+
+#T-shirt-jotaro
+{
+	margin-top:200px;
+	border-bottom:2px black;
+	height:200px;
+	width:200px;
+	grid-column-start:1;
+	grid-column-end:3;
+	
+}
+h1
+{
+	background-image: url("principale.jpg");
+	background-repeat: repeat-x;
+	font-size:200px;
+	text-align:center;
+	margin-bottom:0px;
+	margin-top:0px;
+	color:rgb(240,240,240);
+	text-shadow: 3px 3px 8px black;
+	animation: moveIt 100s linear infinite;
+	height:254px;
+	grid-column-start:1;
+	grid-column-end:5;
+	
+}
