@@ -122,7 +122,7 @@ body
 }
 @Keyframes moveIt
 {
-	from {background-position:left} to {background-position:right;}
+	from {background-position:left;} to {background-position:right;}
 }
 #petit_lien
 {
